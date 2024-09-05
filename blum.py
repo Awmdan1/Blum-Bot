@@ -24,8 +24,8 @@ REFRESH_TOKEN_URL = "https://gateway.blum.codes/v1/auth/refresh"
 BALANCE_URL = "https://game-domain.blum.codes/api/v1/user/balance"
 
 # Global variable to store the authentication token
-auth_token = ""
-ref_token=""
+auth_token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJoYXNfZ3Vlc3QiOmZhbHNlLCJ0eXBlIjoiQUNDRVNTIiwiaXNzIjoiYmx1bSIsInN1YiI6ImI4ZmQ5OTA3LTdmOWYtNDkzNi1iODEyLThjNDMyZmE4NTdjNyIsImV4cCI6MTcyNTU3MTM4OCwiaWF0IjoxNzI1NTY3Nzg4fQ.qSmS1j-v7k_AnnoL35ZtMGr2bOvlYamixRUvLz_leIU"
+ref_token="26.595"
 # Function to get common headers with the current authorization token
 def get_headers():
     return {
